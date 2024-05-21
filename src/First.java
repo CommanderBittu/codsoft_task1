@@ -205,7 +205,7 @@ int generatedNumber=(int) (Math.random()*100);
          jLabel7.setVisible(false);
          jLabel2.setVisible(true);
          jTextField1.setText("");
-         jLabel5.setVisible(false);
+         jLabel5.setVisible(true);
          jLabel8.setVisible(false);
          generatedNumber=(int) (Math.random()*100);
          jLabel10.setVisible(true);
