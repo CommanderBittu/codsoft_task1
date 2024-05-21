@@ -9,7 +9,6 @@ public class First extends javax.swing.JFrame {
     }
 int generatedNumber=(int) (Math.random()*100);
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
@@ -147,17 +146,17 @@ int generatedNumber=(int) (Math.random()*100);
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         int a=JOptionPane.showConfirmDialog(null,"Do you really want to close the Game","Select",JOptionPane.YES_NO_OPTION);
         if(a==0)
             System.exit(0);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
 
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }
     int count=0;
     int c=1;
     int roundwon=0;
@@ -197,7 +196,7 @@ int generatedNumber=(int) (Math.random()*100);
         catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Please enter a valid number.");
         }
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
     
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
          jButton2.setEnabled(true);  
@@ -211,7 +210,7 @@ int generatedNumber=(int) (Math.random()*100);
          jLabel10.setVisible(true);
          c++;
          jLabel11.setText("Round"+" "+Integer.toString(c));
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -220,7 +219,6 @@ int generatedNumber=(int) (Math.random()*100);
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
