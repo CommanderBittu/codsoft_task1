@@ -186,7 +186,7 @@ int generatedNumber=(int) (Math.random()*100);
             jLabel2.setVisible(true);
             jLabel2.setText(Integer.toString(roundwon));
         }
-        if(count>8){
+        if(count==8){
             JOptionPane.showMessageDialog(this, "Game Over. The number was " + generatedNumber + ". You've reached the maximum attempts.");
             jButton2.setEnabled(false);
             jLabel10.setVisible(false);
